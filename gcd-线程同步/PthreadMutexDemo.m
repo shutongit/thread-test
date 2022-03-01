@@ -36,7 +36,7 @@
     }
     return self;
 }
-- (void)dealloc {
+- (void)dealloc { 
     // 释放锁
     pthread_mutex_destroy(&_mutex);
 }
