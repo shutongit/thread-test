@@ -1,4 +1,8 @@
 
+## iOS多线程 - GCD
+- 
+
+
 
 ## iOS线程同步方案
 
@@ -26,8 +30,19 @@
    > - os_unfair_lock (ios10+)
    > - OSSPinLock （存在线程优先级反转问题,不推荐）
    > - dispatch_semaphore
-   >  - pthread_mutex (支持多平台ios linux c等)
-   >  - dispatch_queue(DISPATCH_QUEUE_SERIAL)
-   >  - NSLock
-   >  - NSCondition
-   >  - pthread_mutex(recursive)
+   > - pthread_mutex (支持多平台ios linux c等)
+   > - dispatch_queue(DISPATCH_QUEUE_SERIAL)
+   > - NSLock
+   > - NSCondition
+   > - pthread_mutex(recursive)
+   > - NSRecursiveLock
+   > - NSConditonLock
+   > - @synchronized
+   
+   
+## 多线程atomic
+
+## 多线程读写安全
+- pthread_rwlock
+- dispatch_barrier_async
+

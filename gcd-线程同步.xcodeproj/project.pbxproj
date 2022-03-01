@@ -19,6 +19,9 @@
 		5030ABB827CC952700AC4A65 /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5030ABB727CC952700AC4A65 /* NSLockDemo.m */; };
 		5030ABBB27CCA21D00AC4A65 /* NSCondtionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5030ABBA27CCA21D00AC4A65 /* NSCondtionDemo.m */; };
 		5030ABBE27CCB99200AC4A65 /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 5030ABBD27CCB99200AC4A65 /* NSConditionLockDemo.m */; };
+		50852EF227CE18520027B018 /* OSSPinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50852EF127CE18520027B018 /* OSSPinLockDemo.m */; };
+		50852EF527CE1C910027B018 /* OSUnfairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50852EF427CE1C910027B018 /* OSUnfairLockDemo.m */; };
+		50852EF827CE1EE20027B018 /* PthreadMutexDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 50852EF727CE1EE20027B018 /* PthreadMutexDemo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,12 @@
 		5030ABBA27CCA21D00AC4A65 /* NSCondtionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSCondtionDemo.m; sourceTree = "<group>"; };
 		5030ABBC27CCB99100AC4A65 /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
 		5030ABBD27CCB99200AC4A65 /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		50852EF027CE18520027B018 /* OSSPinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSPinLockDemo.h; sourceTree = "<group>"; };
+		50852EF127CE18520027B018 /* OSSPinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSPinLockDemo.m; sourceTree = "<group>"; };
+		50852EF327CE1C910027B018 /* OSUnfairLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUnfairLockDemo.h; sourceTree = "<group>"; };
+		50852EF427CE1C910027B018 /* OSUnfairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUnfairLockDemo.m; sourceTree = "<group>"; };
+		50852EF627CE1EE20027B018 /* PthreadMutexDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PthreadMutexDemo.h; sourceTree = "<group>"; };
+		50852EF727CE1EE20027B018 /* PthreadMutexDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PthreadMutexDemo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +91,12 @@
 				5030AB9B27CC753400AC4A65 /* SceneDelegate.m */,
 				5030AB9D27CC753400AC4A65 /* ViewController.h */,
 				5030AB9E27CC753400AC4A65 /* ViewController.m */,
+				50852EF027CE18520027B018 /* OSSPinLockDemo.h */,
+				50852EF127CE18520027B018 /* OSSPinLockDemo.m */,
+				50852EF327CE1C910027B018 /* OSUnfairLockDemo.h */,
+				50852EF427CE1C910027B018 /* OSUnfairLockDemo.m */,
+				50852EF627CE1EE20027B018 /* PthreadMutexDemo.h */,
+				50852EF727CE1EE20027B018 /* PthreadMutexDemo.m */,
 				5030ABB327CC77BE00AC4A65 /* PthreadMutexCondDemo.h */,
 				5030ABB427CC77BE00AC4A65 /* PthreadMutexCondDemo.m */,
 				5030ABB627CC952700AC4A65 /* NSLockDemo.h */,
@@ -172,9 +187,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				5030AB9F27CC753400AC4A65 /* ViewController.m in Sources */,
+				50852EF227CE18520027B018 /* OSSPinLockDemo.m in Sources */,
 				5030AB9927CC753400AC4A65 /* AppDelegate.m in Sources */,
 				5030ABB227CC755500AC4A65 /* BaseEventDemo.m in Sources */,
 				5030ABB527CC77BE00AC4A65 /* PthreadMutexCondDemo.m in Sources */,
+				50852EF827CE1EE20027B018 /* PthreadMutexDemo.m in Sources */,
+				50852EF527CE1C910027B018 /* OSUnfairLockDemo.m in Sources */,
 				5030ABBB27CCA21D00AC4A65 /* NSCondtionDemo.m in Sources */,
 				5030ABB827CC952700AC4A65 /* NSLockDemo.m in Sources */,
 				5030ABBE27CCB99200AC4A65 /* NSConditionLockDemo.m in Sources */,

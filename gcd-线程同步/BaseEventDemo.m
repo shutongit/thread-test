@@ -21,6 +21,7 @@
     return self;
 }
 
+/// 买票演示
 - (void)saleTicketTest {
     self.count = 15;
     dispatch_queue_t queue = dispatch_queue_create("saleTicket", DISPATCH_QUEUE_CONCURRENT);
@@ -41,6 +42,7 @@
     });
     
 }
+/// 存钱/取钱演示
 - (void)takeMoneyTest {
     self.money = 100;
     dispatch_queue_t queue = dispatch_queue_create("saveMoney", DISPATCH_QUEUE_CONCURRENT);
@@ -49,8 +51,7 @@
             [self __saveMoney];
         }
     });
-    dispatch_queue_t queue1 = dispatch_queue_create("drawMoney", DISPATCH_QUEUE_CONCURRENT);
-    dispatch_async(queue1, ^{
+    dispatch_async(queue, ^{
         for (int i = 0; i < 5; i ++) {
             [self __drawMoney];
         }
